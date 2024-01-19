@@ -1,0 +1,37 @@
+:root {
+  font-family: 'Rowdies', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/starry.gif);
+  background-size: cover;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 125px;
+  width: 100%;
+  background-color: #21167d;
+  color: aliceblue;
+  justify-content: center;
+  margin-top: 2vw;
+}
+#welcome {
+  font-family: 'Rowdies';
+}
+.about {
+  width: 200px;
+  height: 200px;
+  background-color: #21167d;
+  margin-left: 3vw;
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
