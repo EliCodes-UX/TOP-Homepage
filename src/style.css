@@ -8,7 +8,7 @@
 html,
 body {
   display: grid;
-  margin: 0;
+  margin: 3px;
   padding: 0;
   background-image: url(./assets/starry.gif);
   background-size: cover;
@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr;
-  grid-gap: ;
+  grid-gap: 9px;
 }
 .header {
   grid-row: 1;
@@ -29,6 +29,7 @@ body {
   color: aliceblue;
   justify-content: center;
   margin-top: 2vw;
+  border-radius: 25%;
 }
 
 #welcome {
@@ -40,20 +41,39 @@ body {
   grid-column: 1;
   width: 54vw;
   background-color: #21167d;
-  margin-left: 5vw;
-  margin-top: 2vw;
+  margin-left: 2vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3vw;
+  border-radius: 10%;
 }
 
 .contact {
   grid-row: 2;
   grid-column: 2;
-  background-color: #21167d;
-  color: aliceblue;
   width: fit-content;
   height: fit-content;
-  margin: 2vw;
+}
+
+.contactTitle {
+  display: flex;
+  background-color: #21167d;
+  color: aliceblue;
+  margin-right: 2vw;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+}
+.linkList {
+  display: flex;
+  background-color: #21167d;
+  color: aliceblue;
+  width: 23vw;
+  flex-direction: column;
+  padding-top: 2vw;
+  padding-bottom: 3vw;
+  list-style: none;
+  border-radius: 10%;
 }
